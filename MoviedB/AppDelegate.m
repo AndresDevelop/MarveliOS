@@ -17,6 +17,44 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+       //Lovely, We're going to set up our model  and we're going to use our constructor  wich is going to  do alloc and init for us
+    
+
+    
+    
+    YAPMoviesdB *PopularMovies = [[YAPMoviesdB alloc] initWithUrlMovie:@"https://api.themoviedb.org/3/movie/popular?api_key=d030b2940775fe5941f53c8ea5c56e83&language=en-US&page=1"];
+    
+    YAPMoviesdB *TopRatedMovies = [[YAPMoviesdB alloc] initWithUrlMovie:@"https://api.themoviedb.org/3/movie/top_rated?api_key=d030b2940775fe5941f53c8ea5c56e83&language=en-US&page=1"];
+    
+    YAPMoviesdB *UpcomingMovies = [[YAPMoviesdB alloc] initWithUrlMovie:@"https://api.themoviedb.org/3/movie/upcoming?api_key=d030b2940775fe5941f53c8ea5c56e83&language=en-US&page=1"];
+    
+    
+    // This our controller
+    
+    
+    YAPTableViewController *tablePopular = [[YAPTableViewController alloc] initWithModelMovies:PopularMovies style:UITableViewStylePlain];
+    
+    YAPTableViewController *tableTopRated = [[YAPTableViewController alloc] initWithModelMovies:TopRatedMovies style:UITableViewStylePlain];
+    
+       YAPTableViewController *tableUpcoming = [[YAPTableViewController alloc] initWithModelMovies:UpcomingMovies style:UITableViewStylePlain];
+    //We create our Tab Bar Controller
+    
+    UITabBarController *tapBar = [[UITabBarController alloc]init];
+    tapBar.viewControllers =@[tablePopular, tableTopRated, tableUpcoming];
+    
+    //This or navigation
+    
+    UINavigationController *AppNav = [[UINavigationController alloc] initWithRootViewController:tapBar];
+    
+    // Over there we're going to assign our controller which one we've created before and we're going to tell to the app is the main controller
+    
+    self.window.rootViewController=AppNav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

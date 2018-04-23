@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		CC9D910D1FC7CBB300710E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D910C1FC7CBB300710E93 /* main.m */; };
 		CC9D91101FC7CBB300710E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D910F1FC7CBB300710E93 /* AppDelegate.m */; };
-		CC9D91131FC7CBB300710E93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D91121FC7CBB300710E93 /* ViewController.m */; };
-		CC9D91161FC7CBB300710E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91141FC7CBB300710E93 /* Main.storyboard */; };
 		CC9D91181FC7CBB300710E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91171FC7CBB300710E93 /* Assets.xcassets */; };
-		CC9D911B1FC7CBB300710E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91191FC7CBB300710E93 /* LaunchScreen.storyboard */; };
+		CC9D91281FC7CD9C00710E93 /* YAPMoviedB.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D91271FC7CD9C00710E93 /* YAPMoviedB.m */; };
+		CC9D912C1FC7D54300710E93 /* YAPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D912B1FC7D54300710E93 /* YAPTableViewController.m */; };
+		CC9D91311FC7D9B700710E93 /* YapMovesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D912F1FC7D9B700710E93 /* YapMovesViewController.m */; };
+		CC9D91321FC7D9B700710E93 /* YapMovesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91301FC7D9B700710E93 /* YapMovesViewController.xib */; };
+		CC9D91341FC7E75A00710E93 /* IT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91331FC7E75A00710E93 /* IT.jpg */; };
+		CC9D91391FC7F32100710E93 /* YAPNewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D91371FC7F32100710E93 /* YAPNewCellTableViewCell.m */; };
+		CC9D913A1FC7F32100710E93 /* YAPNewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91381FC7F32100710E93 /* YAPNewCellTableViewCell.xib */; };
+		CC9D913D1FC8B98C00710E93 /* YAPMoviesdB.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D913C1FC8B98C00710E93 /* YAPMoviesdB.m */; };
+		CC9D913F1FCAA6E800710E93 /* TMDB.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9D913E1FCAA6E800710E93 /* TMDB.png */; };
+		CC9D91411FCAA85F00710E93 /* logo-ubidots.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9D91401FCAA85F00710E93 /* logo-ubidots.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC9D91081FC7CBB300710E93 /* MoviedB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviedB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D910C1FC7CBB300710E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC9D910E1FC7CBB300710E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CC9D910F1FC7CBB300710E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC9D91111FC7CBB300710E93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC9D91121FC7CBB300710E93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CC9D91151FC7CBB300710E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9D910F1FC7CBB300710E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CC9D91171FC7CBB300710E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC9D911A1FC7CBB300710E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9D911C1FC7CBB300710E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9D91261FC7CD9C00710E93 /* YAPMoviedB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = YAPMoviedB.h; path = ../YAPMoviedB.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CC9D91271FC7CD9C00710E93 /* YAPMoviedB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = YAPMoviedB.m; path = ../YAPMoviedB.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CC9D912A1FC7D54300710E93 /* YAPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPTableViewController.h; sourceTree = "<group>"; };
+		CC9D912B1FC7D54300710E93 /* YAPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YAPTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CC9D912E1FC7D9B700710E93 /* YapMovesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YapMovesViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CC9D912F1FC7D9B700710E93 /* YapMovesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YapMovesViewController.m; sourceTree = "<group>"; };
+		CC9D91301FC7D9B700710E93 /* YapMovesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YapMovesViewController.xib; sourceTree = "<group>"; };
+		CC9D91331FC7E75A00710E93 /* IT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IT.jpg; sourceTree = "<group>"; };
+		CC9D91361FC7F32100710E93 /* YAPNewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YAPNewCellTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CC9D91371FC7F32100710E93 /* YAPNewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPNewCellTableViewCell.m; sourceTree = "<group>"; };
+		CC9D91381FC7F32100710E93 /* YAPNewCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YAPNewCellTableViewCell.xib; sourceTree = "<group>"; };
+		CC9D913B1FC8B98C00710E93 /* YAPMoviesdB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAPMoviesdB.h; sourceTree = "<group>"; };
+		CC9D913C1FC8B98C00710E93 /* YAPMoviesdB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAPMoviesdB.m; sourceTree = "<group>"; };
+		CC9D913E1FCAA6E800710E93 /* TMDB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TMDB.png; sourceTree = "<group>"; };
+		CC9D91401FCAA85F00710E93 /* logo-ubidots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-ubidots.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,12 @@
 		CC9D910A1FC7CBB300710E93 /* MoviedB */ = {
 			isa = PBXGroup;
 			children = (
+				CC9D91351FC7E75E00710E93 /* Resorcues */,
+				CC9D912D1FC7D54900710E93 /* Controllers */,
+				CC9D91291FC7CDA500710E93 /* Model */,
 				CC9D910E1FC7CBB300710E93 /* AppDelegate.h */,
 				CC9D910F1FC7CBB300710E93 /* AppDelegate.m */,
-				CC9D91111FC7CBB300710E93 /* ViewController.h */,
-				CC9D91121FC7CBB300710E93 /* ViewController.m */,
-				CC9D91141FC7CBB300710E93 /* Main.storyboard */,
 				CC9D91171FC7CBB300710E93 /* Assets.xcassets */,
-				CC9D91191FC7CBB300710E93 /* LaunchScreen.storyboard */,
 				CC9D911C1FC7CBB300710E93 /* Info.plist */,
 				CC9D910B1FC7CBB300710E93 /* Supporting Files */,
 			);
@@ -77,6 +94,42 @@
 				CC9D910C1FC7CBB300710E93 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9D91291FC7CDA500710E93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D913B1FC8B98C00710E93 /* YAPMoviesdB.h */,
+				CC9D913C1FC8B98C00710E93 /* YAPMoviesdB.m */,
+				CC9D91261FC7CD9C00710E93 /* YAPMoviedB.h */,
+				CC9D91271FC7CD9C00710E93 /* YAPMoviedB.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC9D912D1FC7D54900710E93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D912A1FC7D54300710E93 /* YAPTableViewController.h */,
+				CC9D912B1FC7D54300710E93 /* YAPTableViewController.m */,
+				CC9D912E1FC7D9B700710E93 /* YapMovesViewController.h */,
+				CC9D912F1FC7D9B700710E93 /* YapMovesViewController.m */,
+				CC9D91301FC7D9B700710E93 /* YapMovesViewController.xib */,
+				CC9D91361FC7F32100710E93 /* YAPNewCellTableViewCell.h */,
+				CC9D91371FC7F32100710E93 /* YAPNewCellTableViewCell.m */,
+				CC9D91381FC7F32100710E93 /* YAPNewCellTableViewCell.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CC9D91351FC7E75E00710E93 /* Resorcues */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D91331FC7E75A00710E93 /* IT.jpg */,
+				CC9D91401FCAA85F00710E93 /* logo-ubidots.png */,
+				CC9D913E1FCAA6E800710E93 /* TMDB.png */,
+			);
+			name = Resorcues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +191,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9D911B1FC7CBB300710E93 /* LaunchScreen.storyboard in Resources */,
 				CC9D91181FC7CBB300710E93 /* Assets.xcassets in Resources */,
-				CC9D91161FC7CBB300710E93 /* Main.storyboard in Resources */,
+				CC9D91411FCAA85F00710E93 /* logo-ubidots.png in Resources */,
+				CC9D91341FC7E75A00710E93 /* IT.jpg in Resources */,
+				CC9D913F1FCAA6E800710E93 /* TMDB.png in Resources */,
+				CC9D91321FC7D9B700710E93 /* YapMovesViewController.xib in Resources */,
+				CC9D913A1FC7F32100710E93 /* YAPNewCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,32 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9D91131FC7CBB300710E93 /* ViewController.m in Sources */,
+				CC9D91311FC7D9B700710E93 /* YapMovesViewController.m in Sources */,
+				CC9D912C1FC7D54300710E93 /* YAPTableViewController.m in Sources */,
 				CC9D91101FC7CBB300710E93 /* AppDelegate.m in Sources */,
+				CC9D91391FC7F32100710E93 /* YAPNewCellTableViewCell.m in Sources */,
+				CC9D91281FC7CD9C00710E93 /* YAPMoviedB.m in Sources */,
 				CC9D910D1FC7CBB300710E93 /* main.m in Sources */,
+				CC9D913D1FC8B98C00710E93 /* YAPMoviesdB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CC9D91141FC7CBB300710E93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC9D91151FC7CBB300710E93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC9D91191FC7CBB300710E93 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC9D911A1FC7CBB300710E93 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CC9D911D1FC7CBB300710E93 /* Debug */ = {
@@ -220,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
