@@ -1,10 +1,4 @@
-//
-//  YAPMoviedB.h
-//  MoviedB
-//
-//  Created by Yebrail andres Pacheco jaime on 23/11/17.
-//  Copyright © 2017 Yebrail Andres Pacheco jaime. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

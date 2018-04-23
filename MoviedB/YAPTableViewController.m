@@ -1,10 +1,4 @@
-//
-//  YAPTableViewController.m
-//  MoviedB
-//
-//  Created by Yebrail andres Pacheco jaime on 23/11/17.
-//  Copyright © 2017 Yebrail Andres Pacheco jaime. All rights reserved.
-//
+
 
 #import "YAPTableViewController.h"
 
@@ -169,9 +163,7 @@ NSDictionary *Filtred;
     }
     
     
-    // Averiguamos de qué vino se trata
-    
-    // Escogemos el vino seleccionado
+
     YAPMoviedB *wine = [self wineForIndexPath:indexPath];
     
     
@@ -196,8 +188,7 @@ NSDictionary *Filtred;
 
         
     }
-    
-//    NSLog(@"%@", [var objectForKey:@"title"]);
+
     
    
     
@@ -234,13 +225,6 @@ NSDictionary *Filtred;
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    // Escogemos el vino seleccionado
-//    YAPMoviedB *wine = [self wineForIndexPath:indexPath];
-//    
-//    YapMovesViewController *MovieView = [[YapMovesViewController alloc] initWithModel:wine];
-//    
-//    [self.navigationController pushViewController:MovieView animated:YES];
-
 
 }
 
